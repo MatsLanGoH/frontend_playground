@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Web Audio with Key Events</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="../css/main.css">
+		<link rel="stylesheet" href="../css/web_audio.css">
+		<script src="../js/web_audio_keys.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Web Audio with Key Events</h1>
+			<p>Hello World! This is a WebAudio demo for input with keys.</p>
+
+			<div class="container">
+				<div class="player-module">
+					<h3>Simple Piano</h3>
+					<p>Press keys to play a sound.</p>
+					<div class="player-module-controls">
+						<div class="player-module-frequency">
+							<label for="note-number">Note number:</label>
+							<input id="note-number" type="number" value="0" />
+						</div>
+						<div class="player-module-gain">
+							<label for="gain">Volume/Gain:</label>
+							<input type="range" min="0" max="1" step="0.1" value="1.0" id="gain" />
+							<output for="gain" id="gain-output">1.0</output>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Return to <a href="../index.html">overview</a> page.</p>
+		</div>
+	</body>
+</html>

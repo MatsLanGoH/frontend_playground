@@ -9,7 +9,6 @@
 
 		<link rel="stylesheet" href="../css/main.css">
 		<link rel="stylesheet" href="../css/web_audio.css">
-		<script src="../js/web_audio_keys.js"></script>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -19,12 +18,8 @@
 			<div class="container">
 				<div class="player-module">
 					<h3>Simple Piano</h3>
-					<p>Press keys to play a sound.</p>
+					<p>Press keys (a,s,d,f,g,h,j,w,e,t,y,u) to play a sound.</p>
 					<div class="player-module-controls">
-						<div class="player-module-frequency">
-							<label for="note-number">Note number:</label>
-							<input id="note-number" type="number" value="0" />
-						</div>
 						<div class="player-module-gain">
 							<label for="gain">Volume/Gain:</label>
 							<input type="range" min="0" max="1" step="0.1" value="1.0" id="gain" />
@@ -37,5 +32,6 @@
 		<div class="footer">
 			<p>Return to <a href="../index.html">overview</a> page.</p>
 		</div>
+		<script src="../js/web_audio_keys.js"></script>
 	</body>
 </html>
